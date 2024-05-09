@@ -21,8 +21,8 @@ const generateSpaceLAyer = (size, selector, totalStars, duration) =>{
     container.style.setProperty("--duration",duration);
 };
 
-generateSpaceLAyer("1px",".space-1", 300, "90s");
-generateSpaceLAyer("2px",".space-2", 400, "95s");
+generateSpaceLAyer("1px",".space-1", 300, "100s");
+generateSpaceLAyer("2px",".space-2", 400, "100s");
 generateSpaceLAyer("4px",".space-3", 400, "100s");
 
 //animacion para mover las estrellas
