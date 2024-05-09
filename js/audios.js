@@ -4,8 +4,4 @@ const audio = new Audio("./audio/cartaCorto.mp3");
 let musicInput=document.querySelector('#alternar-musica');
 
 audio.loop = true;
-musicInput = addEventListener('change',()=>{
-
-            audio.play();
-
-});
+musicInput.addEventListener('change',()=>{ audio.play(); });
