@@ -47,7 +47,7 @@ body{
     border-radius: 50%;
     box-shadow: inset -25px 0px 0 0px #9098a1;
     /* transition: transform 0.2s ease-in-out; */
-    animation: moveStars var(--duration, 90s) linear infinite;
+    animation: moveStars var(--duration, 120s) linear infinite;
   }
   
   .moon:hover {
@@ -124,7 +124,7 @@ body{
     background-color: (255,255,255);
     /* opacity: 25%; */
     border-radius: 10px;
-    animation: moveStars var(--duration, 90s) linear infinite;
+    animation: moveStars var(--duration, 120s) linear infinite;
 }
 .container-final h2, h1, h3, p{
     color: #e79eff;
